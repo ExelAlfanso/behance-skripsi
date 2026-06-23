@@ -1,0 +1,12 @@
+﻿node_modules
+.pnpm-store
+.output
+.nuxt
+.svelte-kit
+.vercel
+.netlify
+dist
+build
+.env
+.env.*
+!.env.example

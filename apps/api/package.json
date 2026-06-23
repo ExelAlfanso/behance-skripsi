@@ -1,0 +1,26 @@
+{
+  "name": "@behance-skripsi/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "types": "./src/app.ts",
+  "exports": {
+    ".": {
+      "types": "./src/app.ts",
+      "import": "./src/app.ts"
+    }
+  },
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "start": "bun run src/index.ts",
+    "check": "tsc --noEmit",
+    "build": "tsc --noEmit"
+  },
+  "dependencies": {
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "latest"
+  }
+}

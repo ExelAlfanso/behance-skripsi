@@ -2,9 +2,14 @@
   "name": "behance-skripsi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "pnpm -r --parallel dev",
+    "dev:api": "pnpm --filter @behance-skripsi/api dev",
+    "dev:nuxt": "pnpm --filter @behance-skripsi/nuxt-app dev",
+    "dev:svelte": "pnpm --filter @behance-skripsi/svelte-app dev",
+    "build": "pnpm -r build",
+    "check": "pnpm -r check"
   },
   "keywords": [],
   "author": "",
