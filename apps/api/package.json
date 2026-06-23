@@ -17,6 +17,7 @@
     "build": "tsc --noEmit"
   },
   "dependencies": {
+    "@elysia/eden": "^1.4.10",
     "elysia": "latest"
   },
   "devDependencies": {

@@ -1,16 +1,23 @@
 {
+  "devDependencies": {
+    "@biomejs/biome": "2.4.16",
+    "lefthook": "^2.1.9",
+    "ultracite": "7.8.3"
+  },
   "name": "behance-skripsi",
-  "version": "1.0.0",
-  "description": "",
-  "private": true,
   "scripts": {
     "dev": "pnpm -r --parallel dev",
     "dev:api": "pnpm --filter @behance-skripsi/api dev",
     "dev:nuxt": "pnpm --filter @behance-skripsi/nuxt-app dev",
     "dev:svelte": "pnpm --filter @behance-skripsi/svelte-app dev",
     "build": "pnpm -r build",
-    "check": "pnpm -r check"
+    "check": "ultracite check",
+    "fix": "ultracite fix",
+    "prepare": "lefthook install"
   },
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
   "keywords": [],
   "author": "",
   "license": "ISC",

@@ -9,14 +9,19 @@
 
 <style scoped>
 .app-shell {
-  min-height: 100vh;
   display: grid;
   place-items: center;
+  min-height: 100vh;
   font-family:
-    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
     sans-serif;
-  background: #f7f7f2;
   color: #1f2933;
+  background: #f7f7f2;
 }
 
 .intro {
@@ -25,8 +30,8 @@
 
 p {
   margin: 0 0 12px;
-  color: #58606a;
   font-size: 0.95rem;
+  color: #58606a;
 }
 
 h1 {
