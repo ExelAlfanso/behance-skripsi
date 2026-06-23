@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "@behance-skripsi/db",
   "version": "1.0.0",
   "description": "",
@@ -24,4 +24,3 @@
     "tsx": "^4.22.4"
   }
 }
-

@@ -7,9 +7,9 @@
   "name": "behance-skripsi",
   "scripts": {
     "dev": "pnpm -r --parallel dev",
-    "dev:api": "pnpm --filter @behance-skripsi/api dev",
-    "dev:nuxt": "pnpm --filter @behance-skripsi/nuxt-app dev",
-    "dev:svelte": "pnpm --filter @behance-skripsi/svelte-app dev",
+    "dev:api": "pnpm --filter @airbnb-skripsi/api dev",
+    "dev:vue": "pnpm --filter @airbnb-skripsi/vue-app dev",
+    "dev:svelte": "pnpm --filter @airbnb-skripsi/svelte-app dev",
     "build": "pnpm -r build",
     "check": "ultracite check",
     "fix": "ultracite fix",
