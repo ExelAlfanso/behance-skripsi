@@ -7,14 +7,14 @@
 
 <style>
   main {
-    min-height: 100vh;
     display: grid;
     place-items: center;
+    min-height: 100vh;
     font-family:
-      Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-      sans-serif;
-    background: #f3f6f8;
+      Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", sans-serif;
     color: #202832;
+    background: #f3f6f8;
   }
 
   section {
@@ -23,8 +23,8 @@
 
   p {
     margin: 0 0 12px;
-    color: #66717d;
     font-size: 0.95rem;
+    color: #66717d;
   }
 
   h1 {
